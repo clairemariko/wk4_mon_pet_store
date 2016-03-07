@@ -8,7 +8,7 @@ class Store
   def initialize(options)
     @name=options["name"]
     @address=options["address"]
-    @stock_type=option["stock_type"]
+    @stock_type=options["stock_type"]
     @id = options["id"] or nil
 
   end

@@ -3,9 +3,26 @@
 <head>
   <meta charset='utf-8'>
   <title> Pet Store's</title>
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+
+
 <body>
-<%= yield %>
+  <div class="main-nav">
+  <ul class="nav">
+    <li><a href="/home">HOME</a></li>
+    <li><a href="/home">CONTACT</a></li>
+  </ul>
+  </div>
+  <br>
+  <br>
+  <br>
+  <main class="flex">
+    <div class="card">
+      <span class="card-title"><%= yield %></span>
+    </div>
+  </main>
+
+
 </body>
 </html>

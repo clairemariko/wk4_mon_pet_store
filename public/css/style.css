@@ -1,4 +1,60 @@
 body{
-background-color: lightblue;
+  /*background-image: url("animals.jpg");*/
+  background-color: lightblue;
+   
+}
 
+.main-nav {
+  width: 100%;
+  background: lightgrey;
+  min-height: 50px;
+  padding: 4px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  float: right;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: lightgrey;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+a:hover {
+  color: #6633ff;
+}
+
+
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #303869;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  color: white;
+}
+.card:hover {
+  border-color: #ff99ff;
 }

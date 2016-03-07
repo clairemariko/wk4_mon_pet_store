@@ -5,6 +5,6 @@ require_relative('controllers/stores_controller')
 require 'sinatra/contrib/all' if development?
 
 
-get '/' do
+get '/home' do
   erb :home
 end
